@@ -1,7 +1,27 @@
 aid: neutun
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/neutun.png
 name: Neutun
-description: Neutun is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: 'Neutun (Neutun Labs) was a consumer digital-health startup based in Toronto
+  and San Francisco that built a mobile app for people living with epilepsy — helping
+  them track and log seizure activity, manage and fulfill medications, share their
+  journey with a care-circle of loved ones, and surface research-backed health insights
+  to help reduce and prevent seizures. It was surfaced as a 500 Global portfolio company
+  and added to the API Evangelist network as a stub lead. Enrichment probing (2026-07-20)
+  found the company appears defunct: neutun.com is still registered but resolves to
+  no live website (last Wayback Machine snapshot October 2018), and no developer portal,
+  API reference, SDK, OpenAPI, or any public API surface was ever published — only a
+  consumer application with social OAuth sign-in.'
 url: https://raw.githubusercontent.com/api-evangelist/neutun/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +29,23 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-status-evidence:
+- 'neutun.com registered 2014-04-14 (NameCheap), still active to 2027 but no A/NS records resolve'
+- 'last Internet Archive snapshot 2018-10-18; no live site as of probe 2026-07-20'
+- 'no API/developer/docs/SDK paths in archive; consumer epilepsy app only'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Health
+- Digital Health
+- Epilepsy
+- Seizure Tracking
+- Medication Management
+- Consumer Health
+- Mobile App
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +55,8 @@ maintainers:
 common:
 - type: Website
   url: https://neutun.com
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
