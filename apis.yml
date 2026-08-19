@@ -34,7 +34,7 @@ x-status-evidence:
 - 'neutun.com registered 2014-04-14 (NameCheap), still active to 2027 but no A/NS records resolve'
 - 'last Internet Archive snapshot 2018-10-18; no live site as of probe 2026-07-20'
 - 'no API/developer/docs/SDK paths in archive; consumer epilepsy app only'
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-20'
 tags:
